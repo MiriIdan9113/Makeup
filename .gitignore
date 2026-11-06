@@ -5,6 +5,8 @@
 /tmp
 /out-tsc
 /bazel-out
+/Makeup.Api/bin
+/Makeup.Api/obj
 
 # Node
 /node_modules

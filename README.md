@@ -12,6 +12,18 @@ ng serve
 
 Once the server is running, open your browser and navigate to `http://localhost:4200/`. The application will automatically reload whenever you modify any of the source files.
 
+## API and Swagger
+
+Start the ASP.NET Core API from the repository root:
+
+```bash
+dotnet run --project Makeup.Api
+```
+
+In Development mode, open Swagger UI at `http://localhost:5136/swagger`. The sample
+`GET /api/WeatherForecast` endpoint is available there and at
+`http://localhost:5136/api/WeatherForecast`.
+
 ## Code scaffolding
 
 Angular CLI includes powerful code scaffolding tools. To generate a new component, run:
